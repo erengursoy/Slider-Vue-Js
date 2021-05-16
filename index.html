@@ -20,10 +20,7 @@
 
             <ul class="slide">
                 <li  v-for="item in slideİmage">
-                    <li>
-                        <img :src="item.image" alt="" width="300">
-                        
-                    </li>
+                    <img src=".İMG/pexels-george-ketselashvili-761787.jpg" alt="">
                 </li>
             </ul>
 
@@ -40,17 +37,10 @@
             el: "#slider",
             data: {
                 title:"hello",
-                slideİmage: [
-                    {image:"İMG/pexels-george-ketselashvili-761787.jpg"},
-                    {image:".İMG/pexels-george-ketselashvili-761787.jpg"},
-                    
-                    
- 
- 
-                ]
+                
             },
         created(){
-            this.startSlider();
+            
         },
         methods:{
 
